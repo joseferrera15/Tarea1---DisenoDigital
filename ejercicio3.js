@@ -6,7 +6,7 @@ function consultarBaseDeDatos(){
             if(random % 2 === 0){
                 resolve(true)
             }
-            reject(`Error en la consulta ${random}`)
+            reject('Error en la consulta')
         }, 3000); 
     })
     
